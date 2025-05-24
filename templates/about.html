@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Gym Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-image: url('{{ url_for('static', filename='images/about-background.jpg') }}');
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About Us</a>
+        <a href="{{ url_for('membership') }}">Membership</a>
+    </nav>
+
+    <header>
+        <h1>About Titan Gym</h1>
+    </header>
+
+    <section>
+        <h2>Our Story</h2>
+        <p>Titan Gym was founded in 2010 with a mission to promote healthier lifestyles. Our trainers are certified, and our community is supportive!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Titan Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

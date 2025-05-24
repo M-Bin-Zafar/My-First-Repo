@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Management - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-image: url('{{ url_for('static', filename='images/home-background.jpg') }}');
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About Us</a>
+        <a href="{{ url_for('membership') }}">Membership</a>
+    </nav>
+
+    <header>
+        <h1>Welcome to Titan Gym</h1>
+        <p>Your Journey to Fitness Starts Here!</p>
+    </header>
+
+    <section>
+        <h2>Our Services</h2>
+        <p>From strength training to yoga, we have all that you need to get fit and stay healthy!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Titan Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

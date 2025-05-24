@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+    background-color: #C0C0C0; /* Silver */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #654321; /* Tan/Brownish */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: rgba(210, 180, 140, 0.4); /* Lighter Tan, more transparent */
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Adds nice blur effect */
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.3); /* Very light white, semi-transparent */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    backdrop-filter: blur(5px); /* Adds blur effect */
+}
+
+/* Footer */
+footer {
+    background-color: #C0C0C0;
+    color: #654321;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Membership buttons */
+.membership-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.membership-option {
+    background-color: #D2B48C; /* Tan */
+    padding: 20px 40px;
+    border-radius: 50px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.membership-option:hover {
+    transform: translateY(-5px);
+    background-color: #C0C0C0; /* Silver on hover */
+}
